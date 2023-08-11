@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+  }
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+body {
+    background-color: ghostwhite;
+}
+
+.banner {
+    width: 100%;
+    height: 400px;
+    background-image: url("../css/images/indexpage/banner.jpeg");
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    font-weight: bold;
+    color: palevioletred;
+    text-shadow: 2px 2px black;
+}
+
+h1 {
+    padding-top: 50px;
+}
+
+.nav {
+    color: lavenderblush;
+    background-color: black;
+    display: grid;
+    width: 100%;
+    height: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+}
+
+.container {
+	display: flex;
+	width: 100%;
+    grid-template-columns: 75% 1fr;
+    text-align: center;
+    color: palevioletred;
+    margin: 50px auto;
+    gap: 3rem;
+}
+
+.container h3 {
+    color: palevioletred;
+    text-shadow: 1px 1px black;
+}
+
+.container p {
+    color: darkblue;
+    font-size: 15px;
+}
+
+h3 {
+    margin-bottom: 35px;
+}
+
+.contain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    margin-block: 2rem;
+    gap: 5rem;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+}
+  
+.card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(320px, calc(320px + 2vw), 350px);
+    overflow: hidden;
+    box-shadow: 2px 2px black;
+    border-radius: 16px;
+    background: lavenderblush;
+}
+
+.card_title {
+    color: palevioletred;
+    text-shadow: 1px 1px black;
+}
+
+.card_text {
+    color: darkblue;
+}
+  
+.card_body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+  
+.tag {
+    align-self: flex-start;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 12px;
+}
+  
+.tag + .tag {
+    margin-left: 8px;
+}
+  
+.tag-blue {
+    background: royalblue;
+    color: lavenderblush;
+}
+
+.card_footer {
+    display: flex;
+}
+
+button {
+    display: flex;
+    border-radius: 10%;
+    align-content: center;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+button:hover {
+    color: rosybrown;
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    font-weight: bold;
+    padding: 30px 0 20px;
+}
+
+ .connect {
+    padding: 0 15px;
+}
+
+ .return {
+    padding: 0 15px;
+}
